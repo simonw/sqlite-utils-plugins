@@ -16,3 +16,4 @@ Here's how to [build a sqlite-utils plugin](https://sqlite-utils.datasette.io/en
   - `sqlite-utils-sqlite-url`
   - `sqlite-utils-sqlite-ulid`
   - `sqlite-utils-sqlite-lines`
+- **[sqlite-utils-fast-fks](https://github.com/simonw/sqlite-utils-fast-fks)** brings back the fast `db.add_foreign_keys()` method that directly manipulates the `sqlite_master` table and was removed in [sqlite-utils 3.35](https://sqlite-utils.datasette.io/en/stable/changelog.html#v3-35), plus adds a `sqlite-utils fast-fks` command for executing that from the command-line.
