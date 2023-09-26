@@ -17,5 +17,6 @@ Here's how to [build a sqlite-utils plugin](https://sqlite-utils.datasette.io/en
   - `sqlite-utils-sqlite-ulid`
   - `sqlite-utils-sqlite-lines`
   - `sqlite-utils-sqlite-jsonschema`
+  - `sqlite-utils-sqlite-tg` - support for geospatial functions powered by [TG](https://github.com/tidwall/tg)
 - **[sqlite-utils-fast-fks](https://github.com/simonw/sqlite-utils-fast-fks)** brings back the fast `db.add_foreign_keys()` method that directly manipulates the `sqlite_master` table and was removed in [sqlite-utils 3.35](https://sqlite-utils.datasette.io/en/stable/changelog.html#v3-35), plus adds a `sqlite-utils fast-fks` command for executing that from the command-line.
 - **[sqlite-utils-move-tables](https://github.com/simonw/sqlite-utils-move-tables)** adds a `sqlite-utils move-tables origin.db destination.db table1 table2 table3` command to `sqlite-utils`, for moving tables between databases.
